@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCISE1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+<body>
+    
+<P class="GARUDA">GARUDA</P>
+     
+   
+
+</body>
+<body>
+    
+    <div class="TIMNAS">
+        <p class="poppins-medium">TIMNAS</p>
+        <div class="slider">
+            <div class="slides">
+                <img src="foto1.png" alt="" width="100%"
+                style="border-radius: 25px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+                <img src="foto2.png" alt="" width="100%"
+                style="border-radius: 25px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+                <img src="foto3.png" alt="" width="100%"
+                style="border-radius: 25px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+       
+               
+        </div>
+
+        <audio controls src="garuda.mp3"></audio>
+        <p class="txt-waktu" id="hasil"></p>
+        <br>
+        <div class="poppins-regular">TARGET INDO :</div>
+        <ul>
+            <li>INDONESI VS VIETNAM 1-0</li>
+            <li>INDONESIA VS IRAK -</li>
+            <li>INDONESIA PIALA DUNIA</li>
+        </ul>
+        <br>
+       <div class="Check">
+            <h1 button style="cursor: pointer;" onclick="show()">KLIK DISINI!</h1></button>
+        
+        
+        </div>
+    </div>
+    
+    <script>
+        tanggal = new Date();
+        document.getElementById("hasil").innerHTML = tanggal
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
